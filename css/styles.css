@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+}
+
+/*Styling the color-box id with a fixed width and height, and set a default background color.*/
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+/*Styling the change-color-btn id to make it visually appealing and easily clickable.*/
+#change-color-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #218838;
+}
+
+#change-color-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
